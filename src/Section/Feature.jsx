@@ -44,8 +44,8 @@ const Feature = () => {
                                         <img src={detail.icon} alt={detail.title} 
                                         className='size-17/20 z-20 object-contain'/>
                                     </div>
-                                    <h1 className='relative z-2 max-w-36 mx-auto my-0 base-small text-center uppercase'
-                                        >{detail.title}
+                                    <h1 className='relative z-2 max-w-36 mx-auto my-0 base-small text-center uppercase'>
+                                        {detail.title}
                                     </h1>
                                 </div>
                             </li>

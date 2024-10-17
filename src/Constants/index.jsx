@@ -1,5 +1,18 @@
 import magictouch from "../images/magictouch.svg"
 import docs from "../images/docs.svg"
+import circle from "../images/circle.svg"
+import triangle from "../images/triangle.svg"
+import hexagon from "../images/hexagon.svg"
+import jim from "../images/testimonials/jim-bradley.png"
+import jessica from "../images/testimonials/jessica-saunders.png"
+import mark from "../images/testimonials/mark-erixon.png"
+import melanie from "../images/testimonials/melanie-hurst.png"
+import alicia from "../images/testimonials/alicia-barker.png"
+import becky from "../images/testimonials/becky-snider.png"
+import x from "../images/socials/x.svg"
+import threads from "../images/socials/threads.svg"
+import instagram from "../images/socials/instagram.svg"
+import discord from "../images/socials/discord.svg"
 
 export const features = [
     {
@@ -125,8 +138,8 @@ export const features = [
         '5 projects',
         '24/7 support',
       ],
-      icon: '/images/circle.svg',
-      logo: '/images/plan-1.png',
+      icon: circle,
+      logo: require('../images/plan-1.png'),
     },
     {
       id: '1',
@@ -140,8 +153,8 @@ export const features = [
         'Unlimited projects',
         'Analytics',
       ],
-      icon: '/images/triangle.svg',
-      logo: '/images/plan-2.png',
+      icon: triangle,
+      logo: require('../images/plan-2.png')
     },
     {
       id: '2',
@@ -155,8 +168,8 @@ export const features = [
         '50% off per member',
         'Real-time collaboration',
       ],
-      icon: '/images/hexagon.svg',
-      logo: '/images/plan-3.png',
+      icon: hexagon,
+      logo: require('../images/plan-3.png'),
     },
   ];
   
@@ -165,7 +178,7 @@ export const features = [
       id: '0',
       name: 'Jessica Saunders',
       role: 'Globalnomads',
-      avatarUrl: '/images/testimonials/jessica-saunders.png',
+      avatarUrl: jessica,
       comment:
         "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
     },
@@ -173,7 +186,7 @@ export const features = [
       id: '1',
       name: 'Mark Erixon',
       role: 'Vid capital intl',
-      avatarUrl: '/images/testimonials/mark-erixon.png',
+      avatarUrl: mark,
       comment:
         "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
     },
@@ -181,7 +194,7 @@ export const features = [
       id: '2',
       name: 'Melanie Hurst',
       role: 'Cyberleap',
-      avatarUrl: '/images/testimonials/melanie-hurst.png',
+      avatarUrl: melanie,
       comment:
         "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
     },
@@ -189,7 +202,7 @@ export const features = [
       id: '3',
       name: 'Alicia Barker',
       role: 'Cyberleap',
-      avatarUrl: '/images/testimonials/alicia-barker.png',
+      avatarUrl: alicia,
       comment:
         "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
     },
@@ -197,7 +210,7 @@ export const features = [
       id: '4',
       name: 'Becky Snider',
       role: 'Floclips',
-      avatarUrl: '/images/testimonials/becky-snider.png',
+      avatarUrl: becky,
       comment:
         "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
     },
@@ -205,7 +218,7 @@ export const features = [
       id: '5',
       name: 'Jim Bradley',
       role: 'Vid capital intl',
-      avatarUrl: '/images/testimonials/jim-bradley.png',
+      avatarUrl: jim,
       comment:
         'The efficiency boost is undeniable. This platform has transformed our workflow, forever.',
     },
@@ -408,25 +421,25 @@ export const features = [
     {
       id: '0',
       title: 'x',
-      icon: '/images/socials/x.svg',
+      icon: x,
       url: '#',
     },
     {
       id: '1',
       title: 'Threads',
-      icon: '/images/socials/threads.svg',
+      icon: threads,
       url: '#',
     },
     {
       id: '2',
       title: 'Instagram',
-      icon: '/images/socials/instagram.svg',
+      icon: instagram,
       url: '#',
     },
     {
       id: '3',
       title: 'Discord',
-      icon: '/images/socials/discord.svg',
+      icon: discord,
       url: '#',
     },
   ];
