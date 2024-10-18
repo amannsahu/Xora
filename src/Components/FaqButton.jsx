@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import React, { useState } from 'react'
-import SlideDown from 'react-slidedown';
-import "react-slidedown/lib/slidedown.css";
+import { Collapse } from 'react-collapse';
 
 const FaqButton = ({item, index}) => {
 
@@ -28,13 +27,11 @@ const FaqButton = ({item, index}) => {
         </div>
       </div>
 
-      <SlideDown>
-        {activeid === item.id && (
-            <div className='body-3 px-7 py-3.5'>
-                {item.answer}
-            </div>
-        )}
-      </SlideDown>
+      <Collapse isOpened={activeid === item.id}>
+        <div className='body-3 px-7 py-3.5'>
+          {item.answer}
+        </div>
+      </Collapse>
 
       <div className={clsx('g5 absolute -bottom-7 -top-7 left-0 right-0 -z-1 rounded-3xl opacity-0 transition-opacity duration-500', active && 'opacity-100')}>
         <div className='g4 absolute inset-0.5 -z-1 rounded-3xl '/>
